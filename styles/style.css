@@ -1,0 +1,123 @@
+:root{
+    --accent-color:#46A358;
+    --secondary-color:#3D3D3D;
+    --main-color:#FFFFFF;
+    --bg-secondary-color: rgba(247, 248, 245, 0.75);
+
+    --font-sm:14px;
+    --font-md:16px;
+    --font-xl:18px;
+    --content-width:1300px;
+
+    --categories-menu-width:310px;
+    --catalog-gap:50px;
+}
+
+body{
+    font-family: "Cera Pro DEMO", sans-serif;
+    font-weight: normal;
+    font-size: var(--font-md);
+    font-style:normal ;
+    ;
+}
+
+.catalog{
+    margin-top: 20px;
+}
+
+.container{
+    max-width: var(--content-width);
+    margin:0  auto;
+    padding: 0 15px;
+}
+
+.catalog__content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.catalog__categories{
+    background-color: var(--bg-secondary-color);
+    padding: 15px;
+    min-width: var(--categories-menu-width);
+    Height:600px;
+}
+.catalog__categories h4{
+    font-size: var(--font-xl);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.catalog__categories a.active {
+    color:var(--accent-color) ;
+}
+.catalog__product-price{
+    color:var(--accent-color)
+}
+.container__2 a.active{
+    color:var(--accent-color)
+}
+
+    /*.catalog__categories li:not(:last-child) {
+        margin-bottom: 10px;
+    }*/
+.catalog__categories ul{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+a{
+    font-size: var(--font-md);
+    color: var(--secondary-color);
+    text-decoration: none;
+    display: inline-block;
+}
+.catalog__products__1 {
+    display: flex;
+    width: 800px;
+    gap: var(--catalog-gap);
+    background-color: var(--bg-secondary-color);
+    margin-bottom: 70px;
+}
+
+.catalog__products{
+    margin-top: -550px;
+}
+.container__2 {
+    width: 800px;
+    height: 25px;}
+
+.header{
+    width: 840px;
+    height: 25px;
+
+}
+.menu nav  a{
+    gap: 50px;
+    min-width: 95px;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.banner{
+    width: var(--categories-menu-width);
+    background-color: var(--bg-secondary-color);
+}
+.text-ex-image{
+    display: flex;
+    justify-content: center;
+    vertical-align:20px;
+    background: url("./../assets/image 10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+
+}
+
+
+
